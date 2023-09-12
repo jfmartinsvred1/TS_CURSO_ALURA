@@ -6,7 +6,6 @@ export function domInjector(seletor:string){
             if(!elemento){
                 elemento=<HTMLElement>document.querySelector(seletor);
                 console.log(`${propertyKey}`)
-
             }
             return elemento;
         }
